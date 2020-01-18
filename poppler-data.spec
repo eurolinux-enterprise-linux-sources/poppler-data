@@ -6,7 +6,7 @@
 Summary: Encoding files 
 Name:    poppler-data
 Version: 0.4.6
-Release: 3%{?dist}
+Release: 2.1%{?dist}
 # The cMap data files installed by the poppler-data package are
 # under the COPYING.adobe license
 # cidToUnicode, nameToUnicode and unicodeMap data files
@@ -72,9 +72,6 @@ rm -rf $RPM_BUILD_ROOT
 
 
 %changelog
-* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.4.6-3
-- Mass rebuild 2013-12-27
-
 * Mon Apr  8 2013 Marek Kasik <mkasik@redhat.com> 0.4.6-2.1
 - Update License field
 - Resolves: #905472
